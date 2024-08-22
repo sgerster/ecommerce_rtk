@@ -4,9 +4,11 @@ import { useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { addItemToCart } from './CartSlice';
 
+
+const ProductList = () => {
+    
 const dispatch = useDispatch();
 const [disabledProducts, setDisabledProducts] = useState([]);
-const ProductList = () => {
 
   const products = [
     { id: 1, name: 'Product A', price: 60 },
