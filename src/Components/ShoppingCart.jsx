@@ -39,7 +39,7 @@ const handleDecreaseQuantity = itemID => {
         </li>
        ))}
       </ul>
-      <button className="clear-cart-btn" onClick={() => handleClearCart}>Clear Cart</button>
+      <button className="clear-cart-btn" onClick={handleClearCart}>Clear Cart</button>
        <div>{totalAmount ? <div>'The total amount is {totalAmount}</div> : ''}</div>
     </div>
   
